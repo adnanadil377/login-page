@@ -1,0 +1,187 @@
+*{
+  box-sizing: border-box;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  
+  align-items: center;
+  overflow: auto;
+}
+
+.header{
+  display: flex;
+  flex-direction: column;
+}
+
+.header--head{
+  font-family: Nunito Sans;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 0px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #525252;
+}
+
+.header--tagLine{
+  font-family: Nunito Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 0px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #525252;
+}
+.google{
+  width: 360px;
+  height: 45px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px;
+  gap: 13px;
+  border: 1px solid #E8E8E8;
+  background-color: white;
+}
+
+.google--logo{
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.google--sp{
+  font-family: Nunito Sans;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  color: #828282;
+}
+
+.login--or{
+  font-family: Nunito Sans;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0em;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: left;
+  color: #A1A1A1;
+
+}
+
+.label--email{
+  width: 36px;
+  height: 19px;
+  font-family: Nunito Sans;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #828282;  
+}
+#email{
+  width: 360px;
+  height: 45px;
+  padding: 13px, 10px, 13px, 10px;
+  border-radius: 5px;
+  border: 1px;
+  gap: 13px;
+  border: 1px solid #DED2D9
+}
+
+.label--password{
+  width: 36px;
+  height: 19px;
+  font-family: Nunito Sans;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #828282;  
+}
+
+#password{
+  width: 360px;
+  height: 45px;
+  padding: 13px, 10px, 13px, 10px;
+  border-radius: 5px;
+  border: 1px;
+  gap: 13px;
+  border: 1px solid #DED2D9
+}
+
+.label--remeber{
+  color: #A1A1A1;
+  font-family: Nunito Sans;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+#isRemeber{
+  background-color: #7F265B;
+}
+
+.forgot{
+  padding-left: 230px;
+  font-family: Nunito Sans;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #7F265B;
+}
+
+.form {
+  display:grid;
+  grid-template-columns: auto;
+  gap: 17px;
+}
+
+.form--login{
+  height: 45px;
+  padding: 13px, 10px, 12px, 10px;
+  border-radius: 6px;
+  background-color:#7F265B;
+}
+
+.login-word{
+  font-family: Nunito Sans;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 0px;
+  color: #FFFFFF;
+}
+
+.clearFix{
+  overflow: auto;
+}
+.sidePhoto{
+  width: 50%;
+  float: left;
+}
+
+.logo{
+  width: 72px;
+}
+
+
+
+@media screen and (max-width: 720px) {
+  
+  .sidePhoto{
+    width: 100%;
+  }
+  .container{
+    clear: left;
+  }
+}
